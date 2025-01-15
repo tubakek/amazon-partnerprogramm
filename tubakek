@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Partnerprogramm</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.5;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #232f3e;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #37475a;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            margin: 15px 0;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #232f3e;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .btn {
+            display: inline-block;
+            background: #ffa41c;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #e69500;
+        }
+        .cta {
+            background: #ffa41c;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .cta h2 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+        .cta p {
+            margin: 10px 0 0;
+        }
+        .search-bar {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .search-bar input {
+            width: 80%;
+            max-width: 400px;
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .search-bar button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            background: #ffa41c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .search-bar button:hover {
+            background: #e69500;
+        }
+        .testimonials {
+            margin: 20px 0;
+        }
+        .testimonials h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .testimonial {
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        .testimonial p {
+            margin: 0;
+            font-style: italic;
+        }
+        .testimonial span {
+            display: block;
+            margin-top: 10px;
+            text-align: right;
+            font-weight: bold;
+        }
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+            nav a {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Willkommen beim Amazon Partnerprogramm</h1>
+        <p>Verdiene Geld, indem du Amazon-Produkte empfiehlst!</p>
+    </header>
+    <nav>
+        <a href="#home">Startseite</a>
+        <a href="#products">Produkte</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <div class="card">
+                <h2>Über das Partnerprogramm</h2>
+                <p>Das Amazon-Partnerprogramm bietet dir die Möglichkeit, durch die Empfehlung von Produkten auf deiner Website oder in sozialen Netzwerken Geld zu verdienen.</p>
+                <a href="https://partnernet.amazon.de/" class="btn" target="_blank">Mehr erfahren</a>
+            </div>
+        </section>
+        <section class="search-bar">
+            <input type="text" placeholder="Suche nach Produkten...">
+            <button>Suchen</button>
+        </section>
+        <section id="products">
+            <div class="card">
+                <h2>Empfohlene Produkte</h2>
+                <ul>
+                    <li>
+                        <a href="https://amzn.to/beispiel1" target="_blank">Produkt 1: Name des Produkts</a>
+                    </li>
+                    <li>
+                        <a href="https://amzn.to/beispiel2" target="_blank">Produkt 2: Name des Produkts</a>
+                    </li>
+                    <li>
+                        <a href="https://amzn.to/beispiel3" target="_blank">Produkt 3: Name des Produkts</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="cta">
+            <h2>Melde dich noch heute an!</h2>
+            <p>Starte dein eigenes Affiliate-Marketing-Abenteuer mit dem Amazon Partnerprogramm.</p>
+            <a href="https://partnernet.amazon.de/" class="btn" target="_blank">Jetzt beitreten</a>
+        </section>
+        <section id="blog">
+            <div class="card">
+                <h2>Blog</h2>
+                <p>Teile Tipps und Tricks, wie du erfolgreich mit dem Amazon-Partnerprogramm bist!</p>
+            </div>
+        </section>
+        <section class="testimonials">
+            <h2>Was unsere Nutzer sagen</h2>
+            <div class="testimonial">
+                <p>"Das Amazon-Partnerprogramm hat mir geholfen, passives Einkommen zu generieren. Super einfach und effektiv!"</p>
+                <span>- Lisa M.</span>
+            </div>
+            <div class="testimonial">
+                <p>"Dank der Tools und Unterstützung konnte ich meinen Blog monetarisieren. Einfach klasse!"</p>
+                <span>- Markus K.</span>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="card">
+                <h2>Kontakt</h2>
+                <p>Hast du Fragen? Kontaktiere uns per E-Mail: <a href="mailto:kontakt@deinewebsite.de">kontakt@deinewebsite.de</a></p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; <span id="year"></span> Amazon Partnerprogramm. Alle Rechte vorbehalten.</p>
+    </footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
